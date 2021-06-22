@@ -41,7 +41,7 @@ function draw() {
   wall2.show();
   wall.show();
   roof.show();
-  keyPressed();
+  //keyPressed();
   drawSprites();
   
 }
@@ -54,7 +54,7 @@ function keyPressed(){
 }
 function hForce()
 {
-  Matter.Body.applyForce(ball,{x:0,y:0},{x:3,y:0});
+  Matter.Body.applyForce(ball,{x:0,y:0},{x:20,y:-40});
 }
 
 
